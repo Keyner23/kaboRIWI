@@ -1,0 +1,54 @@
+Keyner Andres Barrios Ochoa
+
+README – PERFORMANCE TEST - MODULE 1
+
+This code acts as an inventory manager, allowing you to perform multiple functions depending on the user's needs, such as adding products,
+quickly searching for a product by simply entering its name, updating a product's values ​​(price, quantity), deleting a specific product along with its associated values,
+and finally calculating the total value of the entire inventory. These options will be presented in a menu for quick selection.
+
+The following explains the correct way to use the developed program:
+When running the program, a menu will appear and you will select what you need.
+
+1. Add products to inventory.
+When you select this option, you will be prompted for three options, depending on whether the values ​​are accepted in the field.
+Five products will initially be requested, which will be saved in the inventory (dictionary) as long as the values ​​are correct.
+Entering an unacceptable value will automatically exit the option, and correctly entered values ​​will be automatically saved.
+If, when you try to add a new product, it matches the name of an existing one, you will be shown a message saying "THE PRODUCT IS NOW AVAILABLE {PRODUCT NAME} IN THE INVENTOR."
+
+
+2. Query inventory products.
+Selecting this option will automatically check if any products exist. If none exist, a message will appear stating "THE INVENTORY IS EMPTY" and the option will not be executed, returning to the menu.
+Here, the name of the "key" product will be requested. It will automatically validate whether it exists in the inventory and whether it is an acceptable value. If the entered name exists,
+the corresponding values, such as price and quantity, will be retrieved in a clear format. If it is not in the inventory, it will be removed from the option,
+displaying the message "THE PRODUCT {PRODUCT NAME} NOT IN INVENTORY."
+
+EXAMPLE: If you type a number where you are asked for the product name, it will show you "ONLY TEXT VALUES ARE ACCEPTED."
+
+
+3. Price and quantity update.
+A validation check will be made to see if something exists in the inventory. The name of the product whose values ​​you want to update will be requested, and a valid check will be automatically made.
+A verification check will be made to see if the provided name is in the inventory, then the new price and quantity will be requested. The update will be completed as long as the price value is not a negative number other than 0, and the quantity is not negative. Upon completing the steps correctly, the message "THE PRODUCT {PRODUCT NAME} HAS BEEN UPDATED CORRECTLY, ITS PRICE TO ${NEW PRICE} AND ITS AMOUNT TO {NEW QUANTITY}" 
+will be displayed.
+
+EXAMPLE: If you enter a negative value like -45000 in the price field, it will show you "ONLY POSITIVE NUMBERS ARE ACCEPTED." since only positive prices are accepted in this field.
+        If you write the price correctly and enter a negative amount like -10, it will show you "ONLY NON-NEGATIVE NUMERICAL VALUES ARE ACCEPTED." and no product value will be updated.
+
+
+4. Delete a product that is no longer available.
+It automatically checks whether there is anything to delete in the inventory. The name of the product you wish to delete will be requested. If it exists in the inventory, all corresponding values ​​will be deleted. The following message will then be displayed: "THE PRODUCT HAS BEEN CORRECTLY DISPOSED OF {PRODUCT NAME} FROM THE INVENTORY." The menu will be returned to the menu.
+
+EXAMPLE: If you write a product that does not exist in the inventory, it will show you "THE WRITTEN PRODUCT IS NOT IN THE INVENTORY."
+
+
+5. Total inventory value.
+In this option, everything is done automatically, as the function simply takes the price of the products and multiplies it by the quantity of products in inventory.
+This value will be displayed as "TOTAL INVENTORY VALUE IS ${TOTAL INVENTORY VALUE}" in a complete and clear manner.
+
+EXAMPLE: If you execute this option before adding a product, your value will always be 0 and will be displayed in this format "TOTAL INVENTORY VALUE IS $ 0.00"
+
+
+6. Exit the program.
+Selecting this option will display the message "SECTION CLOSED" and then exit the program.
+
+
+If you enter a number that isn't in the options menu, the message "INVALID OPTION" will appear, and the menu will be displayed again so you can select another option.
