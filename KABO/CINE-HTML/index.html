@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>CINE</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#cartelera">CARTELERA</a>
+            <a href="#sinopsis">SINOPSIS</a>
+            <a href="#taquilla">TAQUILLA</a>
+            <a href="#">CONFITERIA</a>
+            <a href="#contacto">CONTACTO</a>
+        </nav>
+    </header>
+    <main>
+        <br>
+        <h1 id="cartelera">CARTELERA DE ESTRENO</h1>
+        <section class="cartelera" id="cartelera">
+            <a href="#taquilla"><div id="pelicula-1"><img src="pelicula1.webp" alt=""></div></a>
+            <a href="#taquilla"><div id="pelicula-1"><img src="pelicula2.webp" alt=""></div></a>
+            <a href="#taquilla"><div id="pelicula-1"><img src="pelicula3.webp" alt=""></div></a>
+        </section>
+        <br>
+        <br>
+        <h1 id="sinopsis">SINOPSIS</h1>
+        <section class="sinopsis " id="sinopsis">
+            <br>
+            <div class="sinopsis-1">
+                <img src="pelicula1.webp" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam cupiditate corporis sapiente adipisci
+                    laudantium explicabo autem. Sint, minus itaque nobis ea facere libero explicabo ducimus voluptatibus
+                    tempora nesciunt mollitia quae?</p>
+            </div>
+            <br>
+            <br>
+            <div class="sinopsis-2">
+                <img src="pelicula2.webp" alt="">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus autem quam quis dicta id ab
+                    veniam illo magnam nobis rerum voluptate sint ea consequuntur at quidem, maxime molestias quas est?
+                </p>
+            </div>
+            <br>
+            <br>
+            <div class="sinopsis-3">
+                <img src="pelicula3.webp" alt="">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus autem quam quis dicta id ab
+                    veniam illo magnam nobis rerum voluptate sint ea consequuntur at quidem, maxime molestias quas est?
+                </p>
+            </div>
+        </section>
+        <br>
+        <br>
+        <h1 id="taquilla">TAQUILLA</h1>
+        <section class="taquilla" id="taquilla">
+            <div class="taquillas">
+                <img src="pelicula1.webp" alt="">
+                <button><a href="https://www.bancolombia.com/pagos/multipagos-pse" target="_blank">COMPRAR ENTRADAS</a></button>
+            </div>
+            <div class="taquillas">
+                <img src="pelicula2.webp" alt="">
+                <button><a href="https://www.bancolombia.com/pagos/multipagos-pse" target="_blank">COMPRAR ENTRADAS</a></button>
+            </div>
+            <div class="taquillas">
+                <img src="pelicula3.webp" alt="">
+                <button><a href="https://www.bancolombia.com/pagos/multipagos-pse" target="_blank">COMPRAR ENTRADAS</a></button>
+            </div>
+        </section>
+    </main>
+    <br>
+    <br>
+    <h1>CONTACTO</h1>
+    <footer class="contacto" id="contacto">
+        <form action="/send" method="post">
+            <label for="name">Nombre</label>
+            <input type="text" id="name" required>
+            
+            <label for="email">Correo Electronico</label>
+            <input type="email" id="email" required>
+            
+            <button type="submit" value="send">Enviar</button>
+            <button type="reset" value="send" >Limpiar</button>
+        </form>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,190 @@
+/**ESTILOS GENERALES**/
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Press Start 2P", system-ui;
+    scroll-behavior: smooth;
+}
+h1{
+    text-align: center;
+    text-shadow: 2px 2px 3px #5bf17c
+}
+
+
+/*BARRA DE NAVEGACION*/
+header{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    height: 60px;
+    box-shadow: 0 8px 10px #5bf17c;
+}
+nav{
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    gap: 60px;
+    justify-content: center;
+    text-shadow: 2px 2px 3px #5bf17c
+}
+A:hover{
+    color:#5bf17c;
+}
+nav a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+
+/*CARTELERA*/
+.cartelera {
+    width: 1240px;
+    height: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background:rgb(0, 0, 0);
+    border-radius: 10px;
+    display: flex;
+    gap: 20px;
+    box-shadow: 0 8px 10px #5bf17c;
+}
+#pelicula-1{
+    background-color: rgb(255, 255, 255);
+    height: 600px;
+    width: 400px;
+}
+img{
+    height: 600px;
+    width: 400px;
+}
+
+
+/*SINOPSIS*/
+.sinopsis {
+    width: 1240px;
+    height: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background:rgb(0, 0, 0);
+    border-radius: 10px;
+    gap: 20px;
+    color: white;
+    box-shadow: 0 8px 10px #5bf17c;
+}
+/*PELICULA 1*/
+.sinopsis-1{
+    text-align: center;
+    display: flex;
+}
+.sinopsis-1 img{
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 8px 10px #5bf17c;
+}
+.sinopsis-1 p{
+    padding: 100px;
+}
+/*PELICULA 2*/
+.sinopsis-2 img{
+    width: 450px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 8px 10px #5bf17c;
+}
+.sinopsis-2{
+    text-align: center;
+    display: flex;
+}
+.sinopsis-2 p{
+    padding: 100px;
+}
+/**PELICULA 3**/
+.sinopsis-3 img{
+    width: 450px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 8px 10px #5bf17c;
+}
+.sinopsis-3{
+    text-align: center;
+    display: flex;
+}
+.sinopsis-3 p{
+    padding: 100px;
+}
+
+
+/**TAQUILLA**/
+.taquilla {
+    width: 1240px;
+    height: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background:rgb(0, 0, 0);
+    border-radius: 10px;
+    gap: 170px;
+    color: white;
+    box-shadow: 0 8px 10px #5bf17c;
+    display: flex;
+}
+.taquilla img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 8px 10px #5bf17c;
+}
+button{
+    margin: 40px;
+    height: 35px;
+    box-shadow: 0 8px 10px #5bf17c;
+}
+button:hover a:hover{
+    background-color: #5bf17c;
+    color: white;
+    
+}
+.taquilla a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.taquilla {
+    color: white;
+}
+.taquillas{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/**FOOTER**/
+/**CONTACTO**/
+.contacto {
+    width: 1500px;
+    height: 200px;
+    margin: 20px auto;
+    padding: 20px;
+    background:rgb(0, 0, 0);
+    gap: 170px;
+    color: white;
+    box-shadow: 0 8px 10px #5bf17c;
+    display: flex;
+}
+form {
+    flex-direction: column;
+    text-shadow: 2px 2px 3px #5bf17c
+}
+textarea {
+    padding: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+footer {
+    text-align: center;
+    margin-top: 10px;
+}
+.contacto button:hover {
+    background-color: #5bf17c;
+    color: white; 
+}
