@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+*{
+    background-color: #162129;
+    font-family: "Press Start 2P", system-ui;
+}
+header{
+    text-align: center;
+    height: 100px;
+    box-shadow: 0 8px 10px #5bf17c;
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid black;
+    text-shadow: 0 20px 10px black;
+}
+h1{
+    color: #5bf17c;
+    font-size: 40PX;
+    text-shadow: 0 20px 10px black;
+}
+.subtitulo{
+    color: #5bf17c;
+    font-size: 40PX;
+    text-shadow: 0 20px 10px black;
+    text-align: center;
+}
+.about{
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    gap: 60px;
+    align-items: center;
+}
+.ilustracion{
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    gap: 60px;
+    align-items: center;
+}
+a:hover{
+    text-shadow: 2px 2px 3px #5bf17c
+}
+nav a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    
+}
+/**MAIN**/
+.sobremi{
+    width: 1000px;
+    height: 400px;
+    margin: 20px auto;
+    padding: 300px;
+    display: flex;
+    flex-direction: row;
+}
+
+.inicio p{
+    color: rgb(255, 255, 255);
+}
+img{
+    height: 500px;
+    width: 300px;
+}
+
+.habilidades{
+    display: flex;
+    gap: 10%;
+    color: white;
+}
+
+.python{
+    display: flex;
+    gap: 10px;
+}
+.python img{
+    height: 80px;
+    width: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/**FOOTER**/
+.contacto {
+    height: 100px;
+    margin: 20px auto;
+    gap: 170px;
+    color: white;
+    box-shadow: 0 8px 10px #5bf17c;
+    display: flex;
+    align-items: center;
+}
+form {
+    flex-direction: column;
+    text-shadow: 2px 2px 3px #5bf17c
+}
+textarea {
+    padding: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+footer {
+    text-align: center;
+    margin-top: 10px;
+}
+.contacto button:hover {
+    background-color: #5bf17c;
+    color: white; 
+}
